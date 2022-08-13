@@ -70,6 +70,7 @@ def get_next_arrival():
         "from" : ep["from"],
         "to" : "Munich (MUC)",
         "time" : ep["arrives_at"],
+        "flight_number": ep["flight_number"].split(" ")[0],
+        "plane_type" : ep["flight_number"].split(" ")[1],
         "image" : get_plane_image(ep["url"])
     }
-
