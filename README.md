@@ -8,6 +8,6 @@ Infos about the arrivals and departures in Munich Airport (MUC/EDDM)
 ### How to:
 
 #### get_next_arrival
-- returns the next arrival to Munich Airport in a dictionary format
+returns the next arrival to Munich Airport in a dictionary format\n
 ("from", "where", "flight_number", "plane_type", "time", "image")
 
